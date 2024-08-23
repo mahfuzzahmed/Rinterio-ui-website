@@ -112,7 +112,7 @@
                 <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                     weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
                 </p>
-                <button class="btn rounded-3xl bg-[#acef5fa8] ">
+                <button class="btn rounded-3xl w-full lg:w-auto bg-[#acef5fa8] ">
                     <span class="font-bold text-xl">View Details</span>
                     <div
                         class="bg-[#ABEF5F] text-white  w-8 h-8 rounded-full flex justify-center items-center -rotate-45">
@@ -155,16 +155,16 @@
                     <div class="bg-white rounded-xl p-6 flex justify-start items-center gap-6 mb-6 mt-6">
                         <img class="w-16 h-16" src="./assets/commercial.png" alt="">
                         <div class="space-y-3">
-                            <h6 class="text-xl font-bold">Commercial</h6>
-                            <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                            <h6 class="text-xl font-bold text-start">Commercial</h6>
+                            <p class="text-start">The barn house captivates with its blend <br> of rustic charm and modern.</p>
                         </div>
                     </div>
                     <!-- card2 -->
                     <div class="bg-white rounded-xl p-6 flex justify-start items-center gap-6">
                         <img class="w-16 h-16" src="./assets/residential.png" alt="">
                         <div class="space-y-3">
-                            <h6 class="text-xl font-bold">Residential</h6>
-                            <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                            <h6 class="text-xl font-bold text-start">Residential</h6>
+                            <p class="text-start">The barn house captivates with its blend <br> of rustic charm and modern.</p>
                         </div>
                     </div>
                 </div>
@@ -204,20 +204,20 @@
                     </div>
                     <!-- card 2 -->
                     <div class="bg-[#EFDA6E] p-6 space-y-3 rounded-xl">
-                        <img src="./assets/vision.png" alt="">
-                        <h6 class="text-[20px] font-bold">Concept</h6>
+                        <img src="./assets/flow-chart.png" alt="">
+                        <h6 class="text-[20px] font-bold">Design Process</h6>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
                     <!-- card 3 -->
                     <div class="bg-[#A4DAC3] p-6 space-y-3 rounded-xl">
-                        <img src="./assets/flow-chart.png" alt="">
-                        <h6 class="text-[20px] font-bold">Concept</h6>
+                        <img src="./assets/vision.png" alt="">
+                        <h6 class="text-[20px] font-bold">Supervision</h6>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
                     <!-- card 4 -->
                     <div class="bg-[#77AAEA] p-6 space-y-3 rounded-xl">
                         <img src="./assets/budget-planning.png" alt="">
-                        <h6 class="text-[20px] font-bold">Concept</h6>
+                        <h6 class="text-[20px] font-bold">Budget Planning</h6>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
                 </div>
@@ -278,10 +278,10 @@
                 <div class="grid grid-cols-1 lg:grid-cols-4 lg:gap-6 mt-6">
 
                     <!-- left -->
-                    <img class="border w-full rounded-xl p-6" src="./assets/img3.png" alt="">
+                    <img class="border w-full rounded-xl p-6 order-3 lg:order-1" src="./assets/img3.png" alt="">
 
                     <!-- middle -->
-                    <div class="flex flex-col lg:flex-row lg:items-center border rounded-xl gap-6 p-6 col-span-2">
+                    <div class="flex flex-col lg:flex-row lg:items-center border rounded-xl gap-6 p-6 col-span-2 order-2 lg:order-2">
                         <img class="rounded-xl" src="./assets/img4.png" alt="">
                         <!-- text -->
                         <div class="space-y-4">
@@ -299,8 +299,11 @@
                     </div>
 
                     <!--right  -->
-                    <img class="border w-full rounded-xl p-6" src="./assets/img5.png" alt="">
+                    <img class="border w-full rounded-xl p-6 order-1 lg:order-3" src="./assets/img5.png" alt="">
                 </div>
+
+                <!-- last extra image -->
+                <img class="border w-full rounded-xl p-6 order-1 lg:order-3 lg:hidden" src="./assets/img5.png" alt="">
             </div>
 
         </section>
