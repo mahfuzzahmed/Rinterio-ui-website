@@ -58,8 +58,8 @@
                     </div>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li class="font-semibold"><a>Home</a></li>
+                    <ul class="menu menu-horizontal px-1 font-semibold">
+                        <li><a>Home</a></li>
                         <li><a>Services</a></li>
                         <li><a>Portfolio</a></li>
                         <li><a>Blogs</a></li>
@@ -156,7 +156,8 @@
                         <img class="w-16 h-16" src="./assets/commercial.png" alt="">
                         <div class="space-y-3">
                             <h6 class="text-xl font-bold text-start">Commercial</h6>
-                            <p class="text-start">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                            <p class="text-start">The barn house captivates with its blend <br> of rustic charm and
+                                modern.</p>
                         </div>
                     </div>
                     <!-- card2 -->
@@ -164,7 +165,8 @@
                         <img class="w-16 h-16" src="./assets/residential.png" alt="">
                         <div class="space-y-3">
                             <h6 class="text-xl font-bold text-start">Residential</h6>
-                            <p class="text-start">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                            <p class="text-start">The barn house captivates with its blend <br> of rustic charm and
+                                modern.</p>
                         </div>
                     </div>
                 </div>
@@ -281,7 +283,8 @@
                     <img class="border w-full rounded-xl p-6 order-3 lg:order-1" src="./assets/img3.png" alt="">
 
                     <!-- middle -->
-                    <div class="flex flex-col lg:flex-row lg:items-center border rounded-xl gap-6 p-6 col-span-2 order-2 lg:order-2">
+                    <div
+                        class="flex flex-col lg:flex-row lg:items-center border rounded-xl gap-6 p-6 col-span-2 order-2 lg:order-2">
                         <img class="rounded-xl" src="./assets/img4.png" alt="">
                         <!-- text -->
                         <div class="space-y-4">
@@ -369,6 +372,79 @@
 
             </div>
         </section>
+
+
+        <!-- meaningful section -->
+        <section class="lg:p-24 ">
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2">
+                <!--content section  -->
+                <div class=" flex flex-col items-center text-center lg:text-start lg:items-start p-6">
+                    <!-- Our Core -->
+                    <div class="px-4 py-2 flex justify-center items-center gap-3 rounded-full bg-[#EEFCDF] mb-3">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        <p class="font-bold">Our Core</p>
+                    </div>
+
+                    <!-- h1+p -->
+                    <div class="space-y-6 mt-4">
+                        <h1 class="text-2xl lg:text-4xl font-extrabold">SHAPING SPACES</h1>
+                        <p>We are passionate about crafting architectural  solutions <br> that not only meet  functional needs but also enrich the lives of those <br> who inhabit them.</p>
+                    </div>
+
+                    <!-- <button class="btn bg-transparent border-0 p-0 shadow-none flex gap-3 mt-8 rounded-3xl w-full lg:w-auto">
+                        <span class="font-bold text-xl"> READ MORE</span>
+                        <div
+                            class="bg-[#ABEF5F] text-white  w-8 h-8 rounded-full flex justify-center items-center -rotate-45">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </button> -->
+                    <div class="flex gap-4 mt-8">
+
+                        <a class="text-lg font-bold" href="#">READ MORE</a>
+                        <div
+                            class="bg-[#ABEF5F] text-white  w-8 h-8 rounded-full flex justify-center items-center -rotate-45">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- accrodion -->
+                <div class="space-y-5 p-6">
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">A Team of Visionaries</div>
+                        <div class="collapse-content">
+                            <p>Our team of skilled architects and designers brings a unique blend of creativity, technical expertise, and a deep understanding of human behavior to every project.</p>
+                        </div>
+                    </div>
+
+                    <div class="collapse collapse-plus bg-base-200 ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">Building Trust and Partnerships</div>
+                        <div class="collapse-content">
+                            <p>We believe in fostering strong relationships with our clients, based on open communication, transparency, and a shared commitment to excellence.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Innovation at the Forefront</div>
+                        <div class="collapse-content">
+                            <p>We embrace cutting-edge technology and design methodologies to deliver innovative, sustainable, and aesthetically pleasing architectural solutions.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Sustainability by Design</div>
+                        <div class="collapse-content">
+                            <p>Committed to environmental stewardship, we integrate sustainable practices into all aspects of our work, from material selection to energy efficiency.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
     </main>
     <footer class="bg-[#1C1C1C]">
         <div class="space-y-12 flex flex-col justify-center items-center py-24 px-8 lg:px-0 text-center">
@@ -381,21 +457,21 @@
                     </div>
                     <h1 class="btn btn-ghost text-xl font-extrabold "><span class="text-white">Rinterio</span></h1>
                 </div>
-                <p class="mt-4 text-[#737373] ">The barn house captivates with its blend of rustic charm and modern sophistication, <br>
+                <p class="mt-4 text-[#737373] ">The barn house captivates with its blend of rustic charm and modern
+                    sophistication, <br>
                     featuring weathered wood, sleek metal accents.</p>
             </div>
-            
+
             <ul class="text-white px-1 lg:flex gap-28 space-y-3 lg:space-y-0">
-                <li class="font-semibold"><a>Home</a></li>
-                <li><a>Services</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Blogs</a></li>
-                <li><a>Contact Us</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
             <button class="btn border-none rounded-3xl bg-[#ABEF5F] ">
                 <span class="font-bold text-xl">Book Consult</span>
-                <div
-                    class="bg-black text-white  w-8 h-8 rounded-full flex justify-center items-center -rotate-45">
+                <div class="bg-black text-white  w-8 h-8 rounded-full flex justify-center items-center -rotate-45">
                     <i class="fa-solid fa-arrow-right-long"></i>
                 </div>
             </button>
